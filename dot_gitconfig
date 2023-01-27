@@ -1,0 +1,30 @@
+[user]
+    name = Tim Holmes-Mitra
+    email = tim@holmie.xyz
+[alias]
+    lg = log --oneline --graph --decorate -n 10
+    s = status -s
+[color]
+    ui = 1
+[pull]
+    rebase = true
+[core]
+    autocrlf = input
+[rebase]
+    autosquash = true
+    interactive = true
+[init]
+    defaultBranch = main
+[push]
+    default = current
+    autoSetupRemote = true
+[remote]
+    pushDefault = origin
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[commit]
+    gpgsign = true
+
