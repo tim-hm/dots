@@ -1,0 +1,29 @@
+window:
+    dimensions:
+        columns: 120
+        lines: 40
+
+    decorations: none
+
+    padding:
+      x: 20
+      y: 20
+
+font:
+    normal:
+      family: FiraCode Nerd Font Mono
+    size: 13.0
+
+scrolling:
+    history: 10000
+
+cursor:
+    style:
+        blinking: Always
+
+import:
+    - ~/.config/alacritty/dracula.yml 
+
+key_bindings:
+    - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+
