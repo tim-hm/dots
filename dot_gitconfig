@@ -1,6 +1,6 @@
 [user]
     name = Tim Holmes-Mitra
-    email = tim@holmie.xyz
+    email = tim.holmes-mitra@canonical.com
     signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICOhD4lak0C8NC9AiroulW3MgavGGJ4fwHeI6jvcMgHZ
 [alias]
     lg = log --oneline --graph --decorate -n 10
